@@ -12,7 +12,7 @@ RUN git clone https://github.com/visualfc/liteide.git
 
 WORKDIR /opt/liteide/liteide/build
 RUN ./update_pkg.sh
-#RUN QTDIR=/usr ./build_linux.sh
+RUN QTDIR=/usr ./build_linux.sh
 
 # get lite ide and compile
 
